@@ -14,10 +14,7 @@ namespace P_14
         public Teacher() { }
         public Teacher(string name, string surname, DateTime bday, string fuculty,string post,int stan) : base(name, surname, bday, fuculty)
         {
-            Name = name;
-            Surname = surname;
-            Bday = bday;
-            Fuculty = fuculty;
+           
             Post = post;
             Stan = stan;
         }
