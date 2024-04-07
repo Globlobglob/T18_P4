@@ -15,10 +15,7 @@ namespace P_14
         public Student () { }
         public Student(string name, string surname, DateTime bday, string fuculty,int course) : base(name, surname, bday, fuculty)
         {
-            Name = name;
-            Surname = surname;
-            Bday = bday;
-            Fuculty = fuculty;
+           
             Course = course;
         }
 
